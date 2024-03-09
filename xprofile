@@ -1,0 +1,7 @@
+nitrogen --set-zoom-fill Downloads/lmvueavhg1571.png
+pulseaudio-equalizer toggle
+mpd .config/mpd/mpd.conf
+slstatus &
+picom &
+
+exec dwm

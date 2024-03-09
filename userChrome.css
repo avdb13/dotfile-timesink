@@ -1,0 +1,54 @@
+#tabbrowser-tabs {
+  visibility: collapse !important;
+  min-height: 0 !important;
+}
+
+tab {
+  display: none !important;
+}
+
+#titlebar {
+  appearance: none !important;
+  height: 0px;
+}
+
+#titlebar>#toolbar-menubar {
+  margin-top: 0px !important;
+}
+
+/* #sidebar-header is hidden by default, change "none" to "inherit" to restore it. */
+#sidebar-header {
+  display: none !important;
+}
+
+/* #sidebar-splitter styles the divider between the sidebar and the rest of the browser. */
+#sidebar-splitter {
+  display: none !important;
+}
+
+/*Collapse in default state and add transition*/
+#sidebar-box {
+  overflow: hidden;
+  min-width: 48px !important;
+  max-width: 48px !important;
+  transition: all 0.3s ease;
+  border-left: 1px solid #565f89;
+  z-index: 2;
+}
+
+/*Expand to 260px on hover*/
+#sidebar-box:hover,
+#sidebar-box #sidebar {
+  min-width: 260px !important;
+  max-width: 260px !important;
+  z-index: 1;
+}
+
+tab-item tab-closebox {
+  display: none;
+}
+
+
+button {
+  --accentcolor: var(--accent-alt);
+}

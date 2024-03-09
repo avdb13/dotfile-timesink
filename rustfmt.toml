@@ -1,0 +1,5 @@
+imports_granularity = "Crate"
+wrap_comments = true
+max_width = 100
+format_strings = true
+edition = "2021"

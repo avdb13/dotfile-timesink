@@ -1,0 +1,4 @@
+function ls --wraps='exa --no-filesize --no-time --group-directories-first  --octal-permissions --classify --sort created --git --long --color=always' --wraps='exa --no-filesize --no-time --group-directories-first  --octal-permissions --classify --sort created --git --color=always' --wraps='exa --no-filesize --no-time --group-directories-first  --octal-permissions --classify --sort created --git --color=always --all' --wraps='exa --all --no-filesize --no-time --group-directories-first --octal-permissions --sort created --git --color=always' --description 'alias ls=exa --all --no-filesize --no-time --group-directories-first --octal-permissions --sort created --git --color=always'
+  exa --all --no-filesize --no-time --group-directories-first --octal-permissions --sort created --git --color=always $argv
+        
+end
